@@ -1,0 +1,132 @@
+header,section{
+               background-color: bisque;
+               border: 5px #9d8189 solid;
+               padding: 10px 10px;
+               margin: 5px;
+}
+.picture img{
+               border-radius: 20px;
+}
+
+table {
+                              border-collapse: collapse;
+                              width: 50%;
+                            }
+                            
+                            th, td {
+                              border: 1px solid black;
+                              padding: 8px;
+                            
+                            }
+                            
+                            th {
+                              background-color: #f2f2f2;
+                              text-align: center;
+                            }
+
+                            td{
+                              background-color: #f2f2f2;
+                              text-align: left;
+                            }
+
+.biao div{
+  display: flex;
+  justify-content: center;
+}                       
+
+.gender-selector {
+  display: flex;
+  align-items: center;
+}
+
+.gender-selector label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.gender-selector input[type="radio"] {
+  display: none;
+}
+
+.gender-selector input[type="radio"] + span:before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.gender-selector input[type="radio"]:checked + span:before {
+  background-color: #000;
+}
+
+.box {
+  background-color: white;
+  width: 40px;
+  height: 20px;
+  border: 1px solid black;
+  position: relative; 
+}
+
+.triangle {
+  position: absolute;
+  top: 50%;
+  right: 2px; 
+  transform: translateY(-50%);
+  cursor: pointer; /* 鼠标指针变为手型 */
+}
+
+.hobby-selector {
+  display: flex;
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+label .checkbox {
+  width: 5px;
+  height: 20px;
+  border: 1px solid bisque;
+  position: relative;
+}
+
+label .checkbox::after {
+  content: "";
+  display: none;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label input[type="checkbox"]:checked + .checkbox::after {
+  display: block;
+}
+
+label span {
+  margin-left: 5px;
+}
+
+.dan{
+  position: relative;
+}
+
+.all{
+  position: absolute;
+  top: 22%;
+  left: 30%
+}
+
+.clear {
+  clear: both;
+}/* 4. 添加一个空的`div`元素，使用`clear: both;`样式清除浮动，避免`section`元素的高度受到影响。 */

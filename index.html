@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zn-CN">
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Document</title>
+               <link rel="stylesheet" href="style.css"
+</head>
+<body>
+            <header>
+            <h1>网站标题</h1> 
+            <nav>
+            <ul>
+               <li><a href="#">京东</a></li>
+               <li><a href="#">腾讯</a></li>
+               <li><a href="#">这是一个点击跳转到内部页面的链接</a></li>
+               <p> </p>
+               <li><a href="#">点击跳转到段落位置</a></li>
+               <li><a href="#">点击跳转到图片位置</a></li>
+               <li><a href="#">点击跳转到表格位置</a></li>
+            </ul>
+            </nav>
+            </header>
+            <main>
+            <section>
+            <h2>文章一级段落</h2>
+            <h3>文化的简介</h3>
+            <p>这是一个段落：</p>
+            <p>这又是一个段落：</p>
+            
+            </section>
+
+            <section class="picture">
+            <h2>一些图片</h2>
+            <h3>日落</h3>
+            <p>点击图片查看日落简介</p>
+            <div>
+            <img src="images/日落.png" alt="这是一个日落">
+            </div>
+            </section>
+            
+            <section class="biao">
+            <h3>这是一个表格</h3>
+            <div>
+            <table>
+               <thead>
+                 <tr>
+                   <th>表头</th>
+                   <th>表头</th>
+                   <th>表头</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>单元格1</td>
+                   <td>单元格2</td>
+                   <td>单元格3</td>
+                 </tr>
+                 <tr class="merge-column">
+                   <td>6</td>
+                   <td>6666</td>
+                   <td>66666</td>
+                 </tr>
+                 <tr class="merge-column">
+                   <td>6</td>
+                   <td>hello</td>
+                   <td>hi</td>
+                 </tr>
+               </tbody>
+             </table>
+            </div>
+            </section>
+
+            <section>
+               <h3>这是一个有序列表</h3>
+            <ol>
+               <li>first</li>
+               <li>second</li>
+               <li>third</li>
+            </ol>
+            </section>
+            
+            <section>
+            <h2>这将是一个侧栏</h2>
+            </section>
+
+            <section class="dan">
+            <div class="leftone">
+            <h3>这是一个表单</h3>
+            <p>e-mail address:</p>
+            <p>password:</p>
+            <p>gender:</p>
+            <p>origin:</p>
+            <p>hobby:</p>
+            <p>self-description:</p>
+
+            </div>
+
+            <div class="all">
+
+            <div class=" first">
+              <form type="eandp">
+                <input type="email" placeholder="请输入邮箱地址">
+                <p> </p>
+                <input type="password">
+                </form>
+              </div>
+            <p> </p>
+            <div class="gender-selector">
+              <label>
+                <input type="radio" name="gender" value="boy" checked>
+                <span>Boy</span>
+              </label>
+              <label>
+                <input type="radio" name="gender" value="girl">
+                <span>Girl</span>
+              </label>
+            </div>
+            <p> </p>
+            <div class="box">
+              <span class="triangle">&#9662;</span>
+            </div>
+            <p> </p>
+            <div class="hobby-selector">
+              <input type="checkbox" id="sleep" name="hobby" value="sleep">
+              <label for="sleep">
+                <span class="checkbox"></span>
+                Sleep
+              </label>
+              
+              <input type="checkbox" id="eat" name="hobby" value="eat">
+              <label for="eat">
+                <span class="checkbox"></span>
+                Eat
+              </label>
+              
+              <input type="checkbox" id="study" name="hobby" value="study">
+              <label for="study">
+                <span class="checkbox"></span>
+                Study
+              </label>
+            </div>
+            
+            <p> </p>            
+            <div class="last">
+              <form type="self">
+                <input type="descripe" placeholder="这是一个多行输入框,可以输入自我介绍。">
+              </div>
+
+            </div>
+
+            <div class="clear"></div>
+              
+              </section>
+
+            </main>
+</body>
+</html>
